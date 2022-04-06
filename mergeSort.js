@@ -3,9 +3,9 @@ const priceSilverSwords = require('./silver-swords-list');
 const mergeSortSwords = (listSwords) => {
 
     if(listSwords.length > 1) {
-        const midle = Math.floor(listSwords.length / 2);
-        const part1 = mergeSortSwords(listSwords.slice(0, midle));
-        const part2 = mergeSortSwords(listSwords.slice(midle, listSwords.length));
+        const middle = Math.floor(listSwords.length / 2);
+        const part1 = mergeSortSwords(listSwords.slice(0, middle));
+        const part2 = mergeSortSwords(listSwords.slice(middle, listSwords.length));
         listSwords = orderSword(part1, part2);
     }
 
