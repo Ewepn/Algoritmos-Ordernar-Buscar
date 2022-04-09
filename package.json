@@ -1,0 +1,21 @@
+{
+  "name": "algoritmos",
+  "version": "1.0.0",
+  "description": "<h1> Algoritmos de Ordenação e Busca </h1>",
+  "type": "module",
+  "main": "Alg-filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewepn/Algoritmos-Ordernar-Buscar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ewepn/Algoritmos-Ordernar-Buscar/issues"
+  },
+  "homepage": "https://github.com/Ewepn/Algoritmos-Ordernar-Buscar#readme"
+}

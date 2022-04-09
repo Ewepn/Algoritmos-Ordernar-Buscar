@@ -1,4 +1,4 @@
-const priceSilverSwords = require('./silver-swords-list');
+import { witcherSilverSwords } from "./silver-swords-list.js";
 
 const quickSortSwords = (swords, left, right) => {
     if(swords.length > 1){
@@ -48,4 +48,4 @@ const changePosition = (swords, from, to) => {
     swords[to] = element1;
 }
 
-console.log(quickSortSwords(priceSilverSwords, 0, priceSilverSwords.length - 1));
+console.log(quickSortSwords(witcherSilverSwords, 0, witcherSilverSwords.length - 1));

@@ -1,4 +1,4 @@
-const priceSilverSwords = require('./silver-swords-list');
+import { witcherSilverSwords } from "./silver-swords-list.js";
 
 const search = (array, from, to, searchValue) => {
     const middle = Math.floor((from + to) / 2);
@@ -23,4 +23,4 @@ const search = (array, from, to, searchValue) => {
 
 }
 
-console.log(priceSilverSwords[search(priceSilverSwords, 0, priceSilverSwords.length - 1, 440)]);
+console.log(witcherSilverSwords[search(witcherSilverSwords, 0, witcherSilverSwords.length - 1, 440)]);

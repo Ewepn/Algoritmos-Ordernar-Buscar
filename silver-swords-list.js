@@ -1,4 +1,4 @@
-const witcherSilverSwords = [
+ export const witcherSilverSwords = [
     {
         nome: 'Legendary Manticore silver sword',
         tier: 'Witcher Item',
@@ -120,5 +120,3 @@ const witcherSilverSwords = [
         price: 1039
     }
 ];
-
-module.exports = witcherSilverSwords;

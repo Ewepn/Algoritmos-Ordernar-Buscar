@@ -1,4 +1,4 @@
-const priceSilverSwords = require('./silver-swords-list');
+import { witcherSilverSwords } from "./silver-swords-list.js";
 
 const mergeSortSwords = (listSwords) => {
 
@@ -33,4 +33,4 @@ const orderSword = (receivePart1, receivePart2) => {
     return result.concat(positionPart1 < receivePart1.length ? receivePart1.slice(positionPart1) : receivePart2.slice(positionPart2));
 };
 
-console.log(mergeSortSwords(priceSilverSwords));
+console.log(mergeSortSwords(witcherSilverSwords));
